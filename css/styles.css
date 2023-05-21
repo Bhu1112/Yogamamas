@@ -1,0 +1,65 @@
+
+
+body {
+    padding-top: 5px;
+    font-style: italic;
+  }
+  
+  .navbar {
+    background-color:rgb(67, 22, 71);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+  }
+  
+  header {
+    padding: 30px 0;
+    background-color: #ffffff;
+    color: #3d33ca;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .property h4 {
+    margin-top: 5px;
+    color: #3d33ca;
+  }
+  
+  .testimonial-author {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .footer {
+    background-color: rgb(67, 22, 71);
+    padding: 20px;
+    text-align: right;
+    color: #ffffff;
+  }
+  
+  .carousel-item p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(87, 73, 211);
+  }
+  
+  .carousel-item p.testimonial-author {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
